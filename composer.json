@@ -11,7 +11,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/cobwebch/patternlab-fluid-patternengine"
+      "url": "git@github.com:cobwebch/patternlab-fluid-patternengine.git"
     }
   ],
   "extra": {
