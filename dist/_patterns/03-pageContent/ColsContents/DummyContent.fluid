@@ -1,0 +1,4 @@
+
+Contenu par défaut<br/>
+Pour remplacer ce contenu, il faut créer un fichier
+<pre>03-pageContent/ColsContents/{data.pageUid}-{data.colPos}.fluid</pre>

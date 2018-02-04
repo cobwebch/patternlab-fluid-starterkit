@@ -1,6 +1,18 @@
   
   <!--DO NOT REMOVE-->
   {patternLabFoot -> f:format.raw()}
-  
+
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/jquery.responsiveimages.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Libs/bootstrap.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Libs/photoswipe.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Libs/photoswipe-ui-default.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Libs/hammer.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.swipe.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.popover.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.stickyheader.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.smoothscroll.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.lightbox.min.js"></script>
+  <script src="../../typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.navbar.min.js"></script>
+
   </body>
 </html>

@@ -6,8 +6,14 @@
   "type": "patternlab-starterkit",
   "require": {
     "pattern-lab/core": "^2.8",
-    "namelesscoder/patternlab-fluid-patternengine": "dev-master"
+    "cobwebch/patternlab-fluid-patternengine": "dev-master"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/cobwebch/patternlab-fluid-patternengine"
+    }
+  ],
   "extra": {
     "patternlab": {
       "dist": {

@@ -1,0 +1,32 @@
+{
+  "carousel": {
+    "data" : {
+      "layout" : "0",
+      "uid" : "1234",
+      "header" : "Carousel",
+      "header_layout" : "100",
+      "frame_class" : "none"
+    },
+    "records": {
+      "record_1": {
+        "data": {
+          "uid": "1",
+          "background_color": "#cccccc",
+          "item_type": "header",
+          "link": "#",
+          "header": "Record header 1",
+          "bodytext": "Lorem ipsum dolor sit amet consectetur adipiscing elit blandit, donec nisi dapibus montes enim tincidunt lectus, netus leo nascetur nullam sapien tristique habitant. Dictumst ipsum mattis in taciti odio parturient volutpat, ad ridiculus sagittis hendrerit phasellus diam cras, quam vulputate vivamus morbi elit tristique. Quis cum leo egestas posuere curabitur amet sodales, ultricies sit mollis vel aenean nibh porttitor pulvinar, enim cubilia volutpat cursus platea rhoncus."
+        }
+      },
+      "record_2": {
+        "data": {
+          "uid": "2",
+          "background_color": "#cccccc",
+          "header": "Record header 2",
+          "item_type": "html",
+          "bodytext": "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla felis, dignissim blandit natoque consequat tellus erat faucibus montes dictum imperdiet, tempor et morbi a eu ornare aptent conubia. Egestas integer lacus primis dictumst nostra aliquam felis, porta arcu mollis fusce platea cras, sem id inceptos odio nec quis. Parturient augue at tincidunt imperdiet sodales ipsum non lobortis luctus, curae mus pulvinar nullam varius ante posuere dictum, penatibus sollicitudin quam dictumst litora facilisis ullamcorper natoque."
+        }
+      }
+    }
+  }
+}

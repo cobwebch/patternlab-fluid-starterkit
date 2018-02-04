@@ -1,0 +1,1 @@
+La colPos 3 est généralement dédiée à l'affichage d'un carousel dans le BootstrapPackage

@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "breadcrumb": {
+      "enable": true
+    },
+    "copyright" : {
+      "enable": true,
+      "text" : "Ceci est le copyright"
+    },
+    "language": {
+      "enable" : false
+    },
+    "header" :  {
+      "defaultHeaderType" : "2"
+    }
+  }
+}
