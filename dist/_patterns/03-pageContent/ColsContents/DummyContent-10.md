@@ -1,0 +1,1 @@
+La `colonne 10` affiche **le contenu de la colonne de gauche du footer**

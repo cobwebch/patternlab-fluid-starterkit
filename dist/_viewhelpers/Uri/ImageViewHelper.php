@@ -65,6 +65,9 @@ class ImageViewHelper extends AbstractViewHelper
      */
     public function render()
     {
+        if ($this->arguments['src'] === 'EXT:bootstrap_package/Resources/Public/Images/blank.gif') {
+            $this->arguments['src'] = 'https://dummyimage.com/1200x800/cccccc/000000&text=Dummy+Image';
+        }
         return $this->arguments['src'];
     }
 }

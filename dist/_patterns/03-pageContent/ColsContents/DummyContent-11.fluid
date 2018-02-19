@@ -1,3 +1,5 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-Ceci est le contenu par défaut pour un colPos=11
+Ceci est le contenu par défaut pour un colPos={data.colPos}
+Pour remplacer ce contenu, il faut créer un fichier
+<pre>03-pageContent/ColsContents/{data.pageUid}-{data.colPos}.fluid</pre>
 </html>

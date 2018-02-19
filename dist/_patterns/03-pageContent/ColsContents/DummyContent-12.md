@@ -1,0 +1,1 @@
+La `colonne 12` affiche **le contenu de la colonne de droite du footer**

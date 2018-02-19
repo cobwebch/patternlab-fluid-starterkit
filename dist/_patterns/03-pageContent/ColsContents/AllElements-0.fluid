@@ -1,0 +1,48 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:cObject typoscriptObjectPath="lib.page.description"/>
+
+<f:contentElementRender templateName="Image" arguments="{files: files.image}"/>
+
+<f:contentElementRender templateName="Text" arguments="{records_text}"/>
+
+<f:contentElementRender templateName="Text" arguments="{records_text_ulist}"/>
+
+<f:contentElementRender templateName="Text" arguments="{records_text_long}"/>
+
+<f:contentElementRender templateName="Text" arguments="{records_text_olist}"/>
+
+<f:contentElementRender templateName="Text" arguments="{records_text_table}"/>
+
+<f:contentElementRender templateName="Text" arguments="{records_text_short}"/>
+
+<f:contentElementRender templateName="Accordion" arguments="{accordions}"/>
+
+<f:contentElementRender templateName="Text" arguments="{records_text_short}"/>
+
+<f:contentElementRender templateName="Tab" arguments="{tabs}"/>
+
+<f:contentElementRender templateName="Image" arguments="{files: files.images, data: data_2colsImg}"/>
+
+<!-- 2 columns GridElement : start -->
+<div id="cccGe"
+     class="frame frame-default frame-type-gridelements_pi1 frame-layout-0 frame-space-before-none frame-space-after-none">
+    <header></header>
+    <div class="fce2col fcemulticol row">
+        <div class="col-md-6">
+
+            <f:contentElementRender templateName="Text" arguments="{records_text_short_with_title}"/>
+
+        </div>
+        <div class="col-md-6">
+
+            <f:contentElementRender templateName="Text" arguments="{records_text_short_with_title}"/>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- 2 columns GridElement : end -->
+
+
+</html>

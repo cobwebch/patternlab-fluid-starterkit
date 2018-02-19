@@ -1,0 +1,1 @@
+La `colonne 11` affiche **le contenu de la colonne centrale du footer**

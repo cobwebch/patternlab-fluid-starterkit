@@ -599,7 +599,6 @@ td {
   @media all and (min-width: 46.8em) {
     .nav {
       max-height: none;
-      float: right;
       clear: none; }
       .nav li {
         float: left; }

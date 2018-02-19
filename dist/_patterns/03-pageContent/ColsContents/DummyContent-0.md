@@ -1,0 +1,1 @@
+La `colonne 0` affiche **le contenu principal de la page**

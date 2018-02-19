@@ -1,0 +1,1 @@
+La `colonne 40` affiche **le contenu de la colonne de gauche de la section inférieure de la page d'accueil**.
