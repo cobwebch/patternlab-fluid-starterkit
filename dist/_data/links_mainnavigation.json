@@ -1,0 +1,20 @@
+{
+  "mainnavigation" : {
+    "item1" : {
+      "icon": "fas fa-home",
+      "title" : "Tableau de bord",
+      "link" : "#"
+    },
+    "item2" : {
+      "icon": "far fa-bell",
+      "title" : "Opérationnel",
+      "link" : "#",
+      "active" : true
+    },
+    "item3" : {
+      "icon": "fas fa-shield-alt",
+      "title" : "Institutionnel",
+      "link" : "#"
+    }
+  }
+}

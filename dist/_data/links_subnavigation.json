@@ -1,0 +1,103 @@
+{
+  "rubriqueTitle" : "Opérationnel",
+  "subnavigation" : {
+    "item1" : {
+      "title" : "Accueil",
+      "link" : "#"
+    },
+    "item2" : {
+      "title" : "Judiciaire",
+      "link" : "#",
+      "children" : {
+        "rubriqueTitle": "Judiciaire",
+        "subnavigation": {
+          "item1": {
+            "title": "QCCP",
+            "link": "#",
+            "children" : {}
+          },
+          "item2": {
+            "title": "Brigade police scientifique",
+            "link": "#",
+            "children": {}
+          },
+          "item3": {
+            "title": "Criminalité informatique",
+            "link": "#",
+            "active" : true,
+            "children": {
+              "rubriqueTitle": "Judiciaire",
+              "subnavigation": {
+                "item1": {
+                  "title": "QCCP",
+                  "link": "#",
+                  "children": {}
+                },
+                "item2": {
+                  "title": "Brigade police scientifique",
+                  "link": "#",
+                  "children": {}
+                }
+              }
+            }
+          },
+          "item4": {
+            "title": "Etrangers",
+            "link": "#",
+            "children": {}
+          },
+          "item5": {
+            "title": "Faux documents",
+            "link": "#",
+            "children": {}
+          },
+          "item6": {
+            "title": "Idenscan",
+            "link": "#",
+            "children": {}
+          },
+          "item7": {
+            "title": "Alerte enlèvement",
+            "link": "#",
+            "children": {}
+          },
+          "item8": {
+            "title": "Coopération policière internationale",
+            "link": "#",
+            "children": {}
+          }
+        }
+      }
+    },
+    "item3" : {
+      "title" : "Coordination",
+      "link" : "#",
+      "children" : {}
+    },
+    "item4" : {
+      "title" : "Circulation",
+      "link" : "#",
+      "children" : {}
+    },
+    "item5" : {
+      "title" : "Ordre Public",
+      "link" : "#",
+      "children" : {}
+    },
+    "item6" : {
+      "title" : "Sécurité de l'Etat",
+      "link" : "#",
+      "children" : {}
+    },
+    "item7" : {
+      "title" : "Contacts",
+      "link" : "#",
+      "children" : {}
+    },
+    "item8" : {
+      "title" : "Partenaires",
+      "link" : "#",
+      "children" : {}
+    }
+  }
+}

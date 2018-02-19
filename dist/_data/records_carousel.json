@@ -5,7 +5,7 @@
       "uid" : "1234",
       "header" : "Carousel",
       "header_layout" : "100",
-      "frame_class" : "none"
+      "frame_class" : "default"
     },
     "records": {
       "record_1": {

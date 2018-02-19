@@ -1,4 +1,5 @@
 <?php
+
 namespace TYPO3\CMS\Fluid\ViewHelpers\Link;
 
 /*
@@ -61,9 +62,11 @@ class PageViewHelper extends AbstractTagBasedViewHelper
         parent::initializeArguments();
         $this->registerUniversalTagAttributes();
         $this->registerTagAttribute('target', 'string', 'Target of link', false);
-        $this->registerTagAttribute('rel', 'string', 'Specifies the relationship between the current document and the linked document', false);
+        $this->registerTagAttribute('rel', 'string',
+            'Specifies the relationship between the current document and the linked document', false);
         $this->registerTagAttribute('section', 'string', 'Section tag parameter', false);
         $this->registerTagAttribute('pageUid', 'string', 'Page Id', false);
+        $this->registerTagAttribute('uri', 'string', 'Page URI', false, '#');
     }
 
     /**
@@ -80,9 +83,29 @@ class PageViewHelper extends AbstractTagBasedViewHelper
      * @param string $addQueryStringMethod Set which parameters will be kept. Only active if $addQueryString = TRUE
      * @return string Rendered page URI
      */
-    public function render($pageUid = null, array $additionalParams = [], $pageType = 0, $noCache = false, $noCacheHash = false, $section = '', $linkAccessRestrictedPages = false, $absolute = false, $addQueryString = false, array $argumentsToBeExcludedFromQueryString = [], $addQueryStringMethod = null)
-    {
-        $uri = '#';
+    public function render(
+        $pageUid = null,
+        array $additionalParams = [],
+        $pageType = 0,
+        $noCache = false,
+        $noCacheHash = false,
+        $section = '',
+        $linkAccessRestrictedPages = false,
+        $absolute = false,
+        $addQueryString = false,
+        array $argumentsToBeExcludedFromQueryString = [],
+        $addQueryStringMethod = null
+    ) {
+        $uri = $this->arguments['uri'];
+
+        if ($this->arguments['section'] !== '') {
+            if ($uri == '#') {
+                $uri .= $this->arguments['section'];
+            } else {
+                $uri .= '#' . $this->arguments['section'];
+            }
+        }
+
         if ((string)$uri !== '') {
             $this->tag->addAttribute('href', $uri);
             $this->tag->setContent($this->renderChildren());

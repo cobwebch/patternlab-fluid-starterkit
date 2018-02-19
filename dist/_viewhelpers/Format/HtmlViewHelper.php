@@ -20,7 +20,20 @@ use TYPO3Fluid\Fluid\Core\ViewHelper\Traits\CompileWithRenderStatic;
 
 class HtmlViewHelper extends AbstractViewHelper
 {
+
     use CompileWithRenderStatic;
+
+    /**
+     * @var boolean
+     */
+    protected $escapeChildren = false;
+
+    /**
+     * Disable the output escaping interceptor so that the value is not htmlspecialchar'd twice
+     *
+     * @var boolean
+     */
+    protected $escapeOutput = false;
 
     /**
      * Initialize arguments.

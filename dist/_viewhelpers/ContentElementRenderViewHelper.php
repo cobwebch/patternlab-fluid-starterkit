@@ -15,16 +15,9 @@ namespace TYPO3\CMS\Fluid\ViewHelpers;
  * The TYPO3 project - inspiring people to share!
  */
 
-use NamelessCoder\FluidPatternEngine\Traits\FluidLoader;
-use NamelessCoder\FluidPatternEngine\Emulation\EmulatingTemplateParser;
-use NamelessCoder\FluidPatternEngine\Emulation\PatternLabViewHelperInvoker;
-use NamelessCoder\FluidPatternEngine\Hooks\HookManager;
-use NamelessCoder\FluidPatternEngine\Resolving\PatternLabTemplatePaths;
-use NamelessCoder\FluidPatternEngine\Resolving\PatternLabViewHelperResolver;
+use Cobweb\FluidPatternEngine\Traits\FluidLoader;
+use Cobweb\FluidPatternEngine\Resolving\PatternLabTemplatePaths;
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
-use TYPO3Fluid\Fluid\Exception;
-use TYPO3Fluid\Fluid\View\AbstractTemplateView;
-use TYPO3Fluid\Fluid\View\TemplatePaths;
 use TYPO3Fluid\Fluid\View\TemplateView;
 use PatternLab\Config;
 

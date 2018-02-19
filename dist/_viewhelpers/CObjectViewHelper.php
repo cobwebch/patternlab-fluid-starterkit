@@ -91,7 +91,7 @@ class CObjectViewHelper extends AbstractViewHelper
     {
         $ts = $this->arguments['typoscriptObjectPath'];
         $tsParts = explode('.', $ts);
-        $page = $this->arguments['data']['pageUid'] ? $this->arguments['data']['pageUid'] : false;
+        $page = isset($this->arguments['data']['pageUid']) ? $this->arguments['data']['pageUid'] : false;
         $colPos = (isset($this->arguments['data']['colPos'] ) && $this->arguments['data']['colPos'] !== false) ? intval($this->arguments['data']['colPos']) : false;
         $args = array_merge_recursive($this->arguments, $this->templateVariableContainer->getAll());
 
@@ -133,6 +133,24 @@ class CObjectViewHelper extends AbstractViewHelper
                 return $this->getContent("03-pageContent/PluginContents/DummyPlugin", $args);
             }
         }
+
+
+        /**
+         * On tente d'afficher le contenu d'en librairie TypoScript
+         * On va le chercher dans le répertoire 03-pageContent/LibContents
+         * Le fichier doit être `{libpath}.fluid`, par exemple lib.page.title correspond
+         * à 03-pageContent/LibContents/page_title.fluid (les points sont remplacés par '_'
+         */
+        $tsType = array_shift($tsParts);
+        if ($tsType === 'lib') {
+            // Il y a peut-être plusieurs types de ce plugin
+            $libpath = implode('_', $tsParts);
+            // On tente d'afficher du contenu par défaut pour le plugin courant
+            if ($this->partialExists("03-pageContent/LibContents/" . $libpath)) {
+                return $this->getContent("03-pageContent/LibContents/" . $libpath, $args);
+            }
+        }
+
         return '';
     }
 

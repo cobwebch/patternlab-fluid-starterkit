@@ -1,0 +1,122 @@
+{
+  "records_text": {
+    "data": {
+      "uid": "records_text",
+      "bodytext": "Lorem ipsum dolor sit amet consectetur adipiscing elit, senectus platea augue aliquam luctus eros fringilla euismod, viverra ullamcorper interdum vestibulum id urna. Risus lacinia massa etiam tristique laoreet, a vel et dis varius, donec mattis metus elementum. Vulputate lorem per conubia curabitur malesuada turpis potenti donec",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_with_title": {
+    "data": {
+      "uid": "records_text",
+      "header": "Lorem ipsum dolor sit amet consectetur adipiscing",
+      "header_layout": "3",
+      "bodytext": "Lorem ipsum dolor sit amet consectetur adipiscing elit, senectus platea augue aliquam luctus eros fringilla euismod, viverra ullamcorper interdum vestibulum id urna. Risus lacinia massa etiam tristique laoreet, a vel et dis varius, donec mattis metus elementum. Vulputate lorem per conubia curabitur malesuada turpis potenti donec",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_short": {
+    "data": {
+      "uid": "records_text_short",
+      "bodytext": "Lorem ipsum dolor sit amet consectetur adipiscing elit, senectus platea augue aliquam luctus eros fringilla euismod, viverra ullamcorper interdum vestibulum id urna",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_short_with_title": {
+    "data": {
+      "uid": "records_text_short_with_title",
+      "header": "Lorem ipsum dolor sit amet consectetur adipiscing",
+      "header_layout": "3",
+      "bodytext": "Lorem ipsum dolor sit amet consectetur adipiscing elit, senectus platea augue aliquam luctus eros fringilla euismod, viverra ullamcorper interdum vestibulum id urna",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_long": {
+    "data": {
+      "uid": "records_text_long",
+      "bodytext": "Lorem ipsum dolor sit amet consectetur adipiscing elit, senectus platea augue aliquam luctus eros fringilla euismod, viverra ullamcorper interdum vestibulum id urna. Risus lacinia massa etiam tristique laoreet, a vel et dis varius, donec mattis metus elementum. Vulputate lorem per conubia curabitur malesuada turpis potenti donec. Lorem ipsum dolor sit amet consectetur adipiscing elit fames nibh cursus, nisi luctus nisl cras metus fermentum a varius erat, sollicitudin justo inceptos augue primis senectus aliquam enim vulputate. In praesent vulputate nisl maecenas ligula lacinia dictum, eleifend ipsum lobortis posuere dolor cras magnis netus, turpis leo scelerisque ultricies aliquet sociosqu. Eu feugiat egestas enim interdum consequat lobortis euismod habitasse, gravida faucibus lacus per cras donec pulvinar aptent curae, volutpat aenean vehicula urna eleifend sociosqu maecenas. Dolor sapien placerat natoque integer euismod etiam magnis sagittis dignissim, platea pellentesque cum ultrices montes aenean purus conubia malesuada, suspendisse consectetur lorem torquent sociosqu aliquam condimentum dui.",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_long_with_title": {
+    "data": {
+      "uid": "records_text_long",
+      "header": "Lorem ipsum dolor sit amet consectetur adipiscing",
+      "header_layout": "3",
+      "bodytext": "Lorem ipsum dolor sit amet consectetur adipiscing elit, senectus platea augue aliquam luctus eros fringilla euismod, viverra ullamcorper interdum vestibulum id urna. Risus lacinia massa etiam tristique laoreet, a vel et dis varius, donec mattis metus elementum. Vulputate lorem per conubia curabitur malesuada turpis potenti donec. Lorem ipsum dolor sit amet consectetur adipiscing elit fames nibh cursus, nisi luctus nisl cras metus fermentum a varius erat, sollicitudin justo inceptos augue primis senectus aliquam enim vulputate. In praesent vulputate nisl maecenas ligula lacinia dictum, eleifend ipsum lobortis posuere dolor cras magnis netus, turpis leo scelerisque ultricies aliquet sociosqu. Eu feugiat egestas enim interdum consequat lobortis euismod habitasse, gravida faucibus lacus per cras donec pulvinar aptent curae, volutpat aenean vehicula urna eleifend sociosqu maecenas. Dolor sapien placerat natoque integer euismod etiam magnis sagittis dignissim, platea pellentesque cum ultrices montes aenean purus conubia malesuada, suspendisse consectetur lorem torquent sociosqu aliquam condimentum dui.",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_ulist": {
+    "data": {
+      "uid": "records_text_ulist",
+      "bodytext": "<ul><li>Audiendi, si quando de amicitia, quam nec usu nec ratione habent cognitam, disputabunt.</li><li>Nam quis est, pro deorum fidem atque hominum! qui velit, ut neque diligat quemquam nec ipse ab ullo diligatur, &nbsp;rerum abundantia vivere?</li><li>Haec enim est tyrannorum vita nimirum, in qua nulla fides.</li><li>Constituendi autem sunt qui sint in amicitia fines et quasi termini diligendi.</li></ul>",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_ulist_with_title": {
+    "data": {
+      "uid": "records_text_ulist",
+      "header": "Lorem ipsum dolor sit amet consectetur adipiscing",
+      "header_layout": "3",
+      "bodytext": "<ul><li>Audiendi, si quando de amicitia, quam nec usu nec ratione habent cognitam, disputabunt.</li><li>Nam quis est, pro deorum fidem atque hominum! qui velit, ut neque diligat quemquam nec ipse ab ullo diligatur, &nbsp;rerum abundantia vivere?</li><li>Haec enim est tyrannorum vita nimirum, in qua nulla fides.</li><li>Constituendi autem sunt qui sint in amicitia fines et quasi termini diligendi.</li></ul>",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_olist": {
+    "data": {
+      "uid": "records_text_olist",
+      "bodytext": "<ol><li>Audiendi, si quando de amicitia, quam nec usu nec ratione habent cognitam, disputabunt.</li><li>Nam quis est, pro deorum fidem atque hominum! qui velit, ut neque diligat quemquam nec ipse ab ullo diligatur, &nbsp;rerum abundantia vivere?</li><li>Haec enim est tyrannorum vita nimirum, in qua nulla fides.</li><li>Constituendi autem sunt qui sint in amicitia fines et quasi termini diligendi.</li></ol>",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_olist_with_title": {
+    "data": {
+      "uid": "records_text_olist",
+      "header": "Lorem ipsum dolor sit amet consectetur adipiscing",
+      "header_layout": "3",
+      "bodytext": "<ol><li>Audiendi, si quando de amicitia, quam nec usu nec ratione habent cognitam, disputabunt.</li><li>Nam quis est, pro deorum fidem atque hominum! qui velit, ut neque diligat quemquam nec ipse ab ullo diligatur, &nbsp;rerum abundantia vivere?</li><li>Haec enim est tyrannorum vita nimirum, in qua nulla fides.</li><li>Constituendi autem sunt qui sint in amicitia fines et quasi termini diligendi.</li></ol>",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_table": {
+    "data": {
+      "uid": "records_text_table",
+      "bodytext": "<table><thead><tr><th scope=\"row\">Head cell 1</th><th scope=\"col\">Head cell 2</th><th scope=\"col\">Head cell 3</th><th scope=\"col\">Head cell 4</th></tr></thead><tbody><tr><th scope=\"row\">Row 1</th><td>content</td><td>content</td><td>content</td></tr><tr><th scope=\"row\">Row 2</th><td>content</td><td>content</td><td>content</td></tr><tr><th scope=\"row\">Row 3</th><td>content</td><td>content</td><td>content</td></tr></tbody></table>",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  },
+  "records_text_table_with_title": {
+    "data": {
+      "uid": "records_text_table",
+      "header": "Lorem ipsum dolor sit amet consectetur adipiscing",
+      "header_layout": "3",
+      "bodytext": "<table><thead><tr><th scope=\"row\">Head cell 1</th><th scope=\"col\">Head cell 2</th><th scope=\"col\">Head cell 3</th><th scope=\"col\">Head cell 4</th></tr></thead><tbody><tr><th scope=\"row\">Row 1</th><td>content</td><td>content</td><td>content</td></tr><tr><th scope=\"row\">Row 2</th><td>content</td><td>content</td><td>content</td></tr><tr><th scope=\"row\">Row 3</th><td>content</td><td>content</td><td>content</td></tr></tbody></table>",
+      "CType": "textmedia",
+      "layout": "0",
+      "frame_class": "none"
+    }
+  }
+}

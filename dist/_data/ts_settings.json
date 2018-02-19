@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "logo" : {
+      "file" : "../../typo3conf/ext/site_package/Resources/Public/Images/logo.png",
+      "fileInverted" : "",
+      "height" : "",
+      "width" : "",
+      "linktitle" : ""
+    },
+    "social_links": [
+      {
+        "icon": "fab fa-circle fa-facebook-f",
+        "title": "Facebook",
+        "link": ""
+      },
+      {
+        "icon": "fab fa-circle fa-twitter",
+        "title": "Twitter",
+        "link": ""
+      },
+      {
+        "icon": "fab fa-circle fa-linkedin",
+        "title": "LinkedIn",
+        "link": ""
+      },
+      {
+        "icon": "fab fa-circle fa-instagram",
+        "title": "Instagram",
+        "link": ""
+      }
+    ],
+    "breadcrumb": {
+      "enable": true
+    },
+    "copyright" : {
+      "enable": true,
+      "text" : "Ceci est le copyright"
+    },
+    "language": {
+      "enable" : false
+    },
+    "header" :  {
+      "defaultHeaderType" : "2"
+    }
+  }
+}

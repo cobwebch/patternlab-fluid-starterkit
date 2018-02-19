@@ -1,11 +1,18 @@
 {
-  "siteTitle" : "Patternlab Dummy",
-  "showFooter" : true,
+  "showAlert": false,
+  "siteTitle": "Intranet PCV",
+  "pageTitle": "Page Title",
+  "activePage": "Judiciaire",
+  "activePageParent": "Opérationnel",
+  "showFooter": true,
   "data": {
     "uid": "1",
     "pi_flexform": {
       "default_element": "1"
     }
   },
-  "languagenavigation" : false
+  "data_2colsImg": {
+    "imagecols": 2
+  },
+  "languagenavigation": false
 }

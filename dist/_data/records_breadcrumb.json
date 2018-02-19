@@ -1,0 +1,19 @@
+{
+  "breadcrumb": {
+    "link1": {
+      "link": "#",
+      "title": "Lien 1",
+      "target": "_blank"
+    },
+    "link2": {
+      "link": "#",
+      "title": "Lien 2",
+      "target": "_blank"
+    },
+    "link3": {
+      "link": "#",
+      "title": "Lien 3",
+      "target": "_blank"
+    }
+  }
+}

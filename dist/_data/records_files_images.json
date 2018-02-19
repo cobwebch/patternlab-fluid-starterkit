@@ -1,0 +1,32 @@
+{
+  "files": {
+    "images": {
+      "file1": {
+        "type": "2",
+        "link": "#",
+        "src": "/typo3conf/ext/site_package/Resources/Public/Images/policier_1.jpg",
+        "title": "Titre de l'image",
+        "description": "Description de l'image",
+        "alternative": "Texte alternatif de l'image"
+      },
+      "file2": {
+        "type": "2",
+        "link": "#",
+        "src": "/typo3conf/ext/site_package/Resources/Public/Images/policier_2.jpg",
+        "title": "Titre de l'image",
+        "description": "Description de l'image",
+        "alternative": "Texte alternatif de l'image"
+      }
+    },
+    "image": {
+      "file1": {
+        "type": "2",
+        "link": "#",
+        "src": "/typo3conf/ext/site_package/Resources/Public/Images/policier_3.jpg",
+        "title": "Titre de l'image",
+        "description": "Description de l'image",
+        "alternative": "Texte alternatif de l'image"
+      }
+    }
+  }
+}
